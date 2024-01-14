@@ -6,6 +6,40 @@
     <title>Square Calculator</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Kalkulator Matematik Persegi</h1>
+    </header>
+    <main>
+        <section class="information-section">
+            <h2>What is Kalkulator Matematik Persegi?</h2>
+            <p>Kalkulator Matematik Persegi is a website that helps you compute the area or circumference of a square by the given square side length</p>
+        </section>
+        
+        <section class="square-details-section">
+            <img src="images/square.png" alt="Square Image">
+        </section>
+
+        <section class="square-computation-mode-section">
+            <h3>What you want to count?</h3>
+            <select name="square_compute_mode" id="id_square_compute_mode">
+                <option value="area">Area</option>
+                <option value="circumference">Circumference</option>
+            </select>
+        </section>
+        
+        <section class="input-section">
+            <div class="input-field">
+                <div>Input side square length</div>
+                <input type="number" name="square_sidelength" id="id_square_sidelength">
+            </div>
+        </section>
+
+        <section class="result-section">
+            Your result: 
+        </section>
+    </main>
+    <footer>
+        This web is created by @k31p and published with GPL3 License
+    </footer>
 </body>
 </html>
