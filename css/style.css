@@ -1,0 +1,67 @@
+/* Global configuration */ 
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Colouring */
+
+body {
+    background-color: #f0f0f0;
+}
+
+div.page-container{
+    background-color: #ffffff;
+}
+
+/* Layout positioning */
+
+ol {
+    margin-left: 2em;
+    display: table;
+}
+
+section{
+    margin-bottom: 7px;
+}
+
+header{
+    text-align: center;
+    margin: 10px 0;
+}
+
+img{
+    width: 400px;
+}
+
+div.page-container{
+    margin: 5px 12vw;
+    padding: 20px;
+}
+
+main.content-container{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+div.calculator-content{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+div.information-content{
+    width: 70%;
+}
+
+section.square-details-section{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+}

@@ -3,43 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Square Calculator</title>
+    <title>Kalkulator Matematik Persegi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Kalkulator Matematik Persegi</h1>
-    </header>
-    <main>
-        <section class="information-section">
-            <h2>What is Kalkulator Matematik Persegi?</h2>
-            <p>Kalkulator Matematik Persegi is a website that helps you compute the area or circumference of a square by the given square side length</p>
-        </section>
+    <div class="page-container">
+        <header>
+            <h1>Kalkulator Matematik Persegi</h1>
+        </header>
+        <main class="content-container">
+            <div class="calculator-content">
+                <section class="square-computation-mode-section">
+                    <h3>What you want to count?</h3>
+                    <select name="square_compute_mode" id="id_square_compute_mode">
+                        <option value="area">Area</option>
+                        <option value="circumference">Circumference</option>
+                    </select>
+                </section>
+                
+                <section class="input-section">
+                    <div class="input-field">
+                        <div>Input side square length</div>
+                        <input type="number" name="square_sidelength" id="id_square_sidelength">
+                    </div>
+                </section>
         
-        <section class="square-details-section">
-            <img src="images/square.png" alt="Square Image">
-        </section>
-
-        <section class="square-computation-mode-section">
-            <h3>What you want to count?</h3>
-            <select name="square_compute_mode" id="id_square_compute_mode">
-                <option value="area">Area</option>
-                <option value="circumference">Circumference</option>
-            </select>
-        </section>
-        
-        <section class="input-section">
-            <div class="input-field">
-                <div>Input side square length</div>
-                <input type="number" name="square_sidelength" id="id_square_sidelength">
+                <section class="result-section">
+                    Your result: 
+                </section>
             </div>
-        </section>
+            <div class="information-content">
+                <section class="description-section">
+                    <h2>What is Kalkulator Matematik Persegi?</h2>
+                    <p>Kalkulator Matematik Persegi is a website that helps you compute the area or circumference of a square by the given square side length</p>
+                </section>
 
-        <section class="result-section">
-            Your result: 
-        </section>
-    </main>
-    <footer>
-        This web is created by @k31p and published with GPL3 License
-    </footer>
+                <section class="howtouse-section">
+                    <h2>How to use</h2>
+                    <p>You just need to input your square's side length and what operation you want to use (area or circumference)</p>
+                </section>
+
+                <section class="howtofind-section">
+                    <h2>How to find the area and the circumference of the square</h2>
+                    <ol type="1">
+                        <li>To find the square area, multiply the square side by the square's own side ( side &#10005; side )</li>
+                        <li>To find the square circumference, multiply the square side by 2</li>
+                    </ol>
+                </section>
+                
+                <section class="square-details-section">
+                    <img src="images/square.png" alt="Square Image">
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div>This web is created by @k31p and published with GPL3 License</div>
+            <div>Source code: <a href="https://github.com/revou-fundamental-course/8-jan-24-k31p" target="_blank">GitHub</a></div>
+        </footer>
+    </div>
 </body>
 </html>

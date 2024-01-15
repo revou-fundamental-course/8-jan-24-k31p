@@ -8,7 +8,7 @@ This project is created because of an online course
 
 ## Progress
 
-- [ ]  Add HTML layout
+- [x]  Add HTML layout
 - [ ]  Style the HTML with CSS
 - [ ]  Make the website actually work with JavaScript
 - [ ]  Polish the look and feel on the website
