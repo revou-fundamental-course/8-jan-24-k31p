@@ -17,3 +17,13 @@ This project is created because of an online course
 ### &nbsp;&nbsp;&nbsp; For future development...
 - [ ]  Responsiveness for mobile web
 - [ ]  Add libraries (eg: Bootstrap, jQuery) 
+
+## Credits
+
+- [Geogebra]{https://www.geogebra.org} for helping to create the square image
+- []{}
+
+## References
+
+- https://www.cuemath.com/measurement/area-of-square/
+- https://www.cuemath.com/measurement/perimeter-of-square/
