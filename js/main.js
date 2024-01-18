@@ -1,10 +1,9 @@
-// Global vars
-
+// Global variable
 const allowedCountTypes = ["area", "perimeter"];
 
 /** 
  * Validates user input from form
- * @author k31p <github.com/k31p>
+ * @author k31p <https://github.com/k31p>
  * @param {Event} event - Event from the button
  * @return {void}
 */
@@ -38,6 +37,7 @@ function validateInput(event){
 
 /**
  * Do calculation based on the user input
+ * @author k31p <https://github.com/k31p>
  * @param {string} countType - What to count eg: area or perimeter
  * @param {number} sideLength - Square's side length
  * @return {void}
@@ -63,10 +63,22 @@ function countAction(countType, sideLength){
     document.getElementById("inner-result").innerHTML = resultText
 }
 
+/**
+ * Counts the area of a square
+ * @author k31p <https://github.com/k31p>
+ * @param {number} side 
+ * @returns area of a square
+ */
 function countSquareArea(side){
     return side * side;
 }
 
+/**
+ * Count the perimeter of a square
+ * @author k31p <https://github.com/k31p>
+ * @param {number} side 
+ * @returns perimeter of a square
+ */
 function countSquareperimeter(side){
     return 4 * side;
 }
