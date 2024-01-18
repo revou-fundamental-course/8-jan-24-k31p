@@ -12,7 +12,7 @@ This project is created because of an online course
 - [x]  Style the HTML with CSS
 - [x]  Make the website actually work by implementing JavaScript
 - [ ]  Polish the look and feel on the website
-- [ ]  Add additional information about the website
+- [x]  Add additional information about the website
 
 ### &nbsp;&nbsp;&nbsp; For future development...
 - [ ]  Responsiveness for mobile web
@@ -20,8 +20,7 @@ This project is created because of an online course
 
 ## Credits
 
-- [Geogebra]{https://www.geogebra.org} for helping to create the square image
-- []{}
+- [Geogebra](https://www.geogebra.org) for helping to create the square image
 
 ## References
 
