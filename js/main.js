@@ -21,7 +21,7 @@ function validateInput(event){
         return
     }
 
-    if(isNaN(sideLength)){
+    if(sideLength.length == 0 || isNaN(sideLength)){
         alert("Side length must be a number!");
         return
     }
