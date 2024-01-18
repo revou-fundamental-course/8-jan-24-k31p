@@ -1,6 +1,6 @@
 # Kalkulator Matematik Persegi
 
-A calculator to calculate area or circumference
+A calculator to calculate area or perimeter
 
 ## Why this project exist?
 
@@ -9,8 +9,8 @@ This project is created because of an online course
 ## Progress
 
 - [x]  Add HTML layout
-- [ ]  Style the HTML with CSS
-- [ ]  Make the website actually work with JavaScript
+- [x]  Style the HTML with CSS
+- [x]  Make the website actually work by implementing JavaScript
 - [ ]  Polish the look and feel on the website
 - [ ]  Add additional information about the website
 

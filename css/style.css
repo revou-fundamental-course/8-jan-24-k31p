@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Colouring */
 
 body {
@@ -16,11 +20,34 @@ div.page-container{
     background-color: #ffffff;
 }
 
+input, select {
+    width: 100%;
+    /* background-color: #f5e9e9; */
+    /* border: 1px solid #dee2e6; */
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+div.form-wrapper{
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+button.reset-btn{
+    background-color: yellow;
+}
+
+button.submit-btn{
+    background-color: green;
+    color: white;
+}
+
 /* Layout positioning */
 
 ol {
     margin-left: 2em;
-    display: table;
 }
 
 section{
@@ -29,16 +56,31 @@ section{
 
 header{
     text-align: center;
-    margin: 10px 0;
+    margin-bottom: 20px;
 }
 
 img{
     width: 400px;
 }
 
+button{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 div.page-container{
     margin: 5px 12vw;
     padding: 20px;
+}
+
+div.input-wrapper{
+    margin-bottom: 5px;
+}
+
+div.form-action {
+    display: flex;
+    justify-content: space-between;
 }
 
 main.content-container{
@@ -49,8 +91,8 @@ main.content-container{
 
 div.calculator-content{
     width: 30%;
-    padding: 10px;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 div.information-content{
@@ -61,7 +103,14 @@ section.square-details-section{
     text-align: center;
 }
 
-footer{
+section.result-section{
+    margin-top: 10px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+footer{ 
+    margin-top: 20px;
     width: 100%;
     text-align: center;
 }

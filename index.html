@@ -14,41 +14,49 @@
         </header>
         <main class="content-container">
             <div class="calculator-content">
-                <section class="square-computation-mode-section">
-                    <h3>What you want to count?</h3>
-                    <select name="square_compute_mode" id="id_square_compute_mode">
-                        <option value="area">Area</option>
-                        <option value="circumference">Circumference</option>
-                    </select>
-                </section>
-                
-                <section class="input-section">
-                    <div class="input-field">
-                        <div>Input side square length</div>
-                        <input type="number" name="square_sidelength" id="id_square_sidelength">
-                    </div>
-                </section>
-        
+                <div class="form-wrapper">
+                    <form action="#">
+                        <div class="input-wrapper">
+                            What do you want to find?
+                            <select name="square_compute_mode" id="id_square_compute_mode">
+                                <option value="area">Area</option>
+                                <option value="perimeter">Perimeter</option>
+                            </select>
+                        </div>
+                        <div class="input-wrapper">
+                            Side square length
+                            <input type="number" name="square_sidelength" id="id_square_sidelength">
+                        </div>
+                        <div class="input-wrapper form-action">
+                            <button type="reset" class="reset-btn">Reset</button>
+                            <button type="submit" class="submit-btn" onclick="validateInput(event)">Calculate</button>
+                        </div>
+                    </form>
+                </div>
+                    
                 <section class="result-section">
-                    Your result: 
+                    Your result: <br>
+                    <div id="inner-result">
+
+                    </div>
                 </section>
             </div>
             <div class="information-content">
                 <section class="description-section">
                     <h2>What is Kalkulator Matematik Persegi?</h2>
-                    <p>Kalkulator Matematik Persegi is a website that helps you compute the area or circumference of a square by the given square side length</p>
+                    <p>Kalkulator Matematik Persegi is a website that helps you compute the area or perimeter of a square by the given square side length</p>
                 </section>
 
                 <section class="howtouse-section">
                     <h2>How to use</h2>
-                    <p>You just need to input your square's side length and what operation you want to use (area or circumference)</p>
+                    <p>You just need to input your square's side length and what operation you want to use (area or perimeter)</p>
                 </section>
 
                 <section class="howtofind-section">
-                    <h2>How to find the area and the circumference of the square</h2>
+                    <h2>How to find the area and the perimeter of the square</h2>
                     <ol type="1">
                         <li>To find the square area, multiply the square side by the square's own side ( side &#10005; side )</li>
-                        <li>To find the square circumference, multiply the square side by 2</li>
+                        <li>To find the square perimeter, multiply the square side by 4</li>
                     </ol>
                 </section>
                 
@@ -58,7 +66,7 @@
             </div>
         </main>
         <footer>
-            <div>This web is created by @k31p and published with GPL3 License</div>
+            <div>This web is created by <a href="https://github.com/k31p" target="_blank">@k31p</a> and published with GPL3 License</div>
             <div>Source code: <a href="https://github.com/revou-fundamental-course/8-jan-24-k31p" target="_blank">GitHub</a></div>
         </footer>
     </div>
